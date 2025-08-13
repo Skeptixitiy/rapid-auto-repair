@@ -1,0 +1,139 @@
+<!-- contact.html – ForgeSite Studio build -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="24/7 same-day licensed automotive repair in Cambridge with free estimates. Contact Rapid Auto Repair today." />
+  <title>Contact Us | Rapid Auto Repair</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script defer src="scripts.js"></script>
+</head>
+<body>
+  <header class="sticky-header">
+    <div class="container flex">
+      <a href="index.html" class="logo">Rapid Auto Repair</a>
+      <a href="tel:+15197409123" class="phone-cta">+1 519-740-9123</a>
+      <button class="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="emergency-banner">
+      <h2>24/7 Emergency Auto Repair – Call Now!</h2>
+      <a href="tel:+15197409123" class="btn btn-primary">+1 519-740-9123</a>
+    </section>
+
+    <section class="contact-grid">
+      <div class="contact-form">
+        <h1>Request a Free Quote</h1>
+        <form name="contact" method="POST" netlify>
+          <p>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </p>
+          <p>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required />
+          </p>
+          <p>
+            <label for="service">Service Needed</label>
+            <select id="service" name="service">
+              <option value="Brake Repair">Brake Repair</option>
+              <option value="Oil Change">Oil Change</option>
+              <option value="Tire Service">Tire Service</option>
+              <option value="Engine Diagnostics">Engine Diagnostics</option>
+              <option value="Battery & Electrical">Battery & Electrical</option>
+              <option value="Other">Other</option>
+            </select>
+          </p>
+          <p>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+          </p>
+          <button type="submit" class="btn btn-primary">Send Request</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <div class="info-card">
+          <h3>Visit Us</h3>
+          <p>460 Franklin Blvd<br>Cambridge, ON, Canada</p>
+        </div>
+        <div class="info-card">
+          <h3>Call or Email</h3>
+          <p><a href="tel:+15197409123">+1 519-740-9123</a></p>
+          <p><a href="mailto:rapidautorepair@gmail.com">rapidautorepair@gmail.com</a></p>
+        </div>
+        <div class="info-card">
+          <h3>Hours</h3>
+          <p>Mon-Fri: 7am - 7pm<br>Sat: 8am - 5pm<br>Sun: Emergency Only</p>
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2913.707239560394!2d-80.3155957!3d43.3728239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf39d2a66e981%3A0x4008f82a9b3f6a8d!2s460%20Franklin%20Blvd%2C%20Cambridge%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sus!4v1697000000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="cta-section">
+    <div class="container text-center">
+      <h2>Need Immediate Help?</h2>
+      <a href="tel:+15197409123" class="btn btn-primary">Call for 24/7 Emergency Service</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>Rapid Auto Repair</h3>
+        <p>Cambridge's trusted auto service since 2005.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>460 Franklin Blvd<br>Cambridge, ON, Canada</p>
+        <p><a href="tel:+15197409123">+1 519-740-9123</a></p>
+        <p><a href="mailto:rapidautorepair@gmail.com">Email Us</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2025 Rapid Auto Repair. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
